@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:#212529;
+}
+.box{
+    margin: 50px auto;
+    text-align: center;
+}
+.box img{
+    margin-bottom: 60px;
+}
+input{
+    width: 350px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1xp solid black;
+}
+select{
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.card{
+    width: 280px;
+    height: 450px;
+    background-color: #FFFF00;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 115px;
+    margin: 15px 0;
+}
+.card button{
+    padding: 15px 35px;
+    background: #C4E4FF;
+    border-radius: 40px;
+    font-size: 18px;
+    border: none;
+}
+.card h3{
+   font-size: 25px;
+   margin: 10px 0;
+}
+.card h2{
+    font-size: 32px;
+}
+.card h4{
+    color: #80007C;
+    font-size: 22px;
+}
+.p-id{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700; 
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* border-radius: 0 10px 0 0; */
+}
+.time{
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    font-weight: 700; 
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
